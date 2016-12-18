@@ -1,0 +1,224 @@
+body {
+    font: 14px/1.42857143 "Open Sans",sans-serif;
+    color: #0a0a0a;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #fff;
+}
+.navbar.navbar-default {
+  background-color: #0a0a0a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar.navbar-default .navbar-brand {
+  margin-top: -15px;
+}
+.navbar.navbar-default .navbar-brand img {
+  width: 150px;
+}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
+div.filter-title, h2.filter-title {
+    background: url(http://geometrybrand.com/skin/frontend/smartwave/porto/images/slider-bar.png) right no-repeat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 42px;
+    margin: 0;
+    color: #313131;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner{
+  width: 100%;
+}
+
+.footer {
+    background-color: #0a0a0a;
+    line-height: 20px;
+    border-top: 1px solid #DDDDDD;
+    overflow: hidden;
+}
+
+.footer-big {
+    padding-top: 30px;
+}
+
+.footer-color-black, .footer-transparent {
+    background-color:#0a0a0a;
+    color: #DDDDDD;
+}
+
+.footer .title {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer-big nav > ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.footer-big nav > ul > li {
+    padding: 3px;
+}
+
+.footer-big nav > ul > li > a{
+    color: #555;
+}
+
+.footer-big nav > ul > li > a:hover{
+    color: #777;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-big .copyright {
+    margin: 10px 0px 20px;
+}
+
+.footer .copyright {
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer .copyright a{
+  color: #555;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover{
+  color: #777;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.list{
+  border-bottom: 1px solid #ddd;
+}
+
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a{
+  color:#777;
+  text-decoration: none;
+}
+a:hover{
+  color: #555;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-bootsnipp .bootsnipp-search {
+	display: none;
+}
+
+.navbar-bootsnipp .bootsnipp-search .form-control {
+	background-color: rgb(235, 235, 235);
+	border-radius: 0px;
+	border-width: 0px;
+	padding: 25px 0px;
+}
+.navbar-bootsnipp .bootsnipp-search .form-control:focus {
+	border-color: transparent;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn {
+	padding: 14px 16px;
+	border-radius: 0px;
+}
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn.active,
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn:hover,
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn:focus {
+	padding: 14px 16px 14px 15px;
+}
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn-default {
+	background-color: rgb(245, 245, 245);
+}
+
+
+@media screen and (min-width: 768px) {
+
+	.navbar-bootsnipp .navbar-nav > li.disabled > a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	.navbar-bootsnipp .bootsnipp-search {
+		background-color: rgb(235, 235, 235);
+		display: block;
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		-webkit-transform: rotateX(-90deg);
+		-moz-transform: rotateX(-90deg);
+		-o-transform: rotateX(-90deg);
+		-ms-transform: rotateX(-90deg);
+		transform: rotateX(-90deg);
+		-webkit-transform-origin: 0 0 0;
+		-moz-transform-origin: 0 0 0;
+		-o-transform-origin: 0 0 0;
+		-ms-transform-origin: 0 0 0;
+		transform-origin: 0 0 0;
+		visibility: hidden;
+	}
+	.navbar-bootsnipp .bootsnipp-search.open {
+		-webkit-transform: rotateX(0deg);
+		-moz-transform: rotateX(0deg);
+		-o-transform: rotateX(0deg);
+		-ms-transform: rotateX(0deg);
+		transform: rotateX(0deg);
+		visibility: visible;
+	}
+	.navbar-bootsnipp .bootsnipp-search > .container {
+		padding: 0px;
+	}
+}
